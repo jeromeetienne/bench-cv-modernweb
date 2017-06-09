@@ -4,6 +4,8 @@
 - Code this in multiple versions : webworkers - webassembly - gpu
 - Then mix them together - determine which combinason is best
 
+**STATUS**: in progress
+
 # Step1 Basic Demo - onecore-purejs
 - read the webcam
 - display the origianl image
@@ -16,7 +18,6 @@
 - aka all normal javascript - no webassembly so more stable
 
 [Demo on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/multicore-purejs/multicore-purejs.html)
-
 
 # Step3 Implement webassembly - onecore-wasm
 - code in C the convert2Grey yourself first
