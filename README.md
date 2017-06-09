@@ -10,16 +10,25 @@
 - filter the image - use jsaruco function
 - display the filtered image
 
-[demo]()
+[Demo on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-purejs/onecore-purejs.html)
 
 # Step2 Implement webworkers + jsaruco - multicore-purejs
 - aka all normal javascript - no webassembly so more stable
+
+[Demo on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/multicore-purejs/multicore-purejs.html)
+
 
 # Step3 Implement webassembly - onecore-wasm
 - code in C the convert2Grey yourself first
 - see about getting a horintal/vertical blur in C 
 - then do a adaptative thresholding
 - result must be the same as the jsaruco version
+
+
+[Demo on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-wasm/onecore-wasm.html)
+-
+[Minimal on canvas](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-wasm/minimal.html)
+
 
 # Step4 Implement a gpu version
 - convert2Grey may be done in shader
