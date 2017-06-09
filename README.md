@@ -25,8 +25,7 @@
 - result must be the same as the jsaruco version
 
 
-[Demo on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-wasm/onecore-wasm.html)
--
+[Demo on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-wasm/onecore-wasm.html) -
 [Minimal on canvas](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-wasm/minimal.html)
 
 
