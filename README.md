@@ -6,6 +6,9 @@
 
 **STATUS**: in progress
 
+i did a first experiment - it is barely working - no clear result yet - 
+here is a [twitter thread](https://twitter.com/jerome_etienne/status/872503583681499136) about it
+
 # Step1 Basic Demo - onecore-purejs
 - read the webcam
 - display the origianl image
