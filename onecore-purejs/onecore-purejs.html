@@ -33,19 +33,26 @@
         var greyCVImage = new CV.Image();
         var thresCVImage = new CV.Image();
 	requestAnimationFrame(function callback(){
+                // console.time('process frame')
+                processVideo(videoElement)
+                // console.timeEnd('process frame')
+		
+		requestAnimationFrame(callback)
+	})
+
+        function processVideo(videoElement){
                 context.drawImage(videoElement, 0, 0)
                 var imageData = context.getImageData(0, 0, canvas.width, canvas.height)
 
 		CV.grayscale(imageData, greyCVImage)
                 CV.adaptiveThreshold(greyCVImage, thresCVImage, 2, 10);
 
+		// CV.grayscale(imageData, thresCVImage)
+
         	var imageData = context.createImageData(canvas.width, canvas.height);
         	copyCVImage2ImageData(thresCVImage, imageData)
-        	context.putImageData( imageData, 0, 0);
-		
-		requestAnimationFrame(callback)
-	})
-
+        	context.putImageData( imageData, 0, 0);                
+        }
 
 
         //////////////////////////////////////////////////////////////////////////////

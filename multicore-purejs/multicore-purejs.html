@@ -52,7 +52,9 @@
 
 
 	requestAnimationFrame(function callback(){
+		// console.time('process')
                 processVideo(videoElement, function(){
+			// console.timeEnd('process')
                         requestAnimationFrame(callback)                 
                 })
 	})
