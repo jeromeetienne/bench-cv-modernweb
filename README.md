@@ -39,6 +39,8 @@ here is a [twitter thread](https://twitter.com/jerome_etienne/status/87250358368
 - which resolution for the texture ?
 - how many passes ? 4 different shaders or larger ones ?
 
+[Early version on webcam](https://jeromeetienne.github.io/bench-cv-modernweb/onecore-gpu/onecore-gpu.html)
+
 # Step5 Mix them together
 - what is possible ? what is buggy ?
 - if all is running as expected, any combinaison would work. 
